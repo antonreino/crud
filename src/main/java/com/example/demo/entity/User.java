@@ -65,7 +65,7 @@ public class User {
 		this.name = name;
 	}
 
-	public String getSurnsames() {
+	public String getSurnames() {
 		return surnames;
 	}
 

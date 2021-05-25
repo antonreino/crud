@@ -1,9 +1,27 @@
 <html xmlns:th="http://www.thymeleaf.org">
-<head></head>
+<head>
+<link rel="stylesheet" href="/css/styles.css">
+</head>
 <body>
-   <h1>Consultar Usuarios</h1>
-   <form name='f' action="show" method='GET'>
-      <button>Entrar</button>
-  </form>
+	<link
+		href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		rel="stylesheet" id="bootstrap-css">
+	<script
+		src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script
+		src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!------ Include the above in your HEAD tag ---------->
+
+	<div class="wrapper fadeInDown">
+		<div id="formContent">
+			<form name='f' action="show" method='GET'>
+				<input type="text" id="login" class="fadeIn second" name="login" placeholder="Usuario" required> 
+				<input type="password" id="password" class="fadeIn third" name="login" placeholder="Contrase&ntilde;a" required>
+				<input type="submit" class="fadeIn fourth" value="Log In">
+			</form>
+
+		</div>
+	</div>
 </body>
 </html>
+
