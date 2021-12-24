@@ -14,7 +14,7 @@ public class SpringConfiguration {
           .driverClassName("com.mysql.cj.jdbc.Driver")
           .url("jdbc:mysql://localhost:3306/manolito")
           .username("root")
-          .password("deportivo")
+          .password("deportiv")
           .build();	
     }
 }
