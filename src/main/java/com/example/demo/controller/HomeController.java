@@ -12,7 +12,7 @@ import com.example.demo.entity.User;
 import com.example.demo.repository.UserRepository;
 
 @Controller
-public class HomeController {
+public class HomeController<UserRepository> {
 
 	@Autowired(required=true)
 	private UserRepository userService;
